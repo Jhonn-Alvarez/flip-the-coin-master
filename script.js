@@ -5,7 +5,7 @@ const GameArea = document.getElementById('game-area');
 //Heads image
 const resultImage = document.createElement('img');
 GameArea.appendChild(resultImage);
-resultImage.src = '/resources/heads.svg';
+resultImage.src = '/resources/heads.png';
 
 //shadow image
 const shadowImage = document.createElement('img');
