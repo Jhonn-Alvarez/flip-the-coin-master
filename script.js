@@ -5,12 +5,12 @@ const GameArea = document.getElementById('game-area');
 //Heads image
 const resultImage = document.createElement('img');
 GameArea.appendChild(resultImage);
-resultImage.src = '/resources/heads.png';
+resultImage.src = './resources/heads.svg';
 
 //shadow image
 const shadowImage = document.createElement('img');
 GameArea.appendChild(shadowImage);
-shadowImage.src = '/resources/shadow.svg';
+shadowImage.src = './resources/shadow.svg';
 
 //result display
 const resultDisplay = document.createElement('p');
@@ -27,11 +27,11 @@ flipButton.addEventListener('click', function (e) {
   const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
   if (result == 'Heads') {
     console.log('Heads');
-    resultImage.src = '/resources/heads.svg';
+    resultImage.src = './resources/heads.svg';
     resultDisplay.innerText = result; 
   } else {
     console.log('Tails');
-    resultImage.src = '/resources/tails.svg';
+    resultImage.src = './resources/tails.svg';
     resultDisplay.innerText = result;
   }
 });
