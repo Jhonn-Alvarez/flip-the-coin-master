@@ -73,6 +73,45 @@ button:hover {
 
 /* responsive */
 
-@media screen and (width >= 80rem) {
-    
-}
+@media only screen and (max-width: 480px) {
+
+    body {
+      margin-top: 1.5rem;
+    }
+  
+    .container {
+      height: auto;
+      padding: 1rem;
+    }
+  
+    #title {
+      font-size: 2.5rem;
+      -webkit-text-stroke-width: 3px;
+      text-align: center;
+    }
+  
+    #game-area {
+      height: auto;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+  
+    p,
+    #instructions {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    button {
+      width: 100%;
+      max-width: 240px;
+      height: 55px;
+      font-size: 1.1rem;
+    }
+  
+    .author-info {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
