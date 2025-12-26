@@ -6,11 +6,13 @@ const GameArea = document.getElementById('game-area');
 const resultImage = document.createElement('img');
 GameArea.appendChild(resultImage);
 resultImage.src = './resources/heads.svg';
+resultImage.alt = 'Heads coin side';
 
 //shadow image
 const shadowImage = document.createElement('img');
 GameArea.appendChild(shadowImage);
 shadowImage.src = './resources/shadow.svg';
+shadowImage.alt = 'Coin shadow';
 
 //result display
 const resultDisplay = document.createElement('p');
